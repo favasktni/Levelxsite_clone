@@ -1,0 +1,1257 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    justify-content: center;
+    align-items: center;
+    background-color:white;
+    overflow-x: hidden;
+} 
+.bg{
+    filter: blur(30px);
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 100px;
+    width: 2000px;
+    height: 500px;
+}
+
+.icndiv{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.img{
+    margin-left: 5px;
+    width: 80px;
+    position: absolute;
+    top: 20px;
+}
+.secound_div{
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+margin-top: 123px;
+    
+}
+.h_1{
+ font-size: 60px;
+font-family: CabinetGrotesk-Extrabold, sans-serif;
+  color: rgb(36, 42, 84);
+  position: absolute;
+  top: 102px;
+}
+.h-2{
+    font-size: 40px;
+    font-family: CabinetGrotesk-Extrabold, sans-serif;
+    color: rgb(36, 42, 84);
+    top: 236px;
+    position: absolute;
+}
+.sub-heading{
+    position: absolute;
+    top:302px;
+}
+span::before{
+    content: "";
+    animation: n 2s alternate infinite;
+    color: rgb(36, 42, 84);;
+    position: absolute;
+    top: 180px;
+    left: 620px;
+    font-family: sans-serif;
+}
+@keyframes n{
+ 20%{
+    content: "Full-Stack Developer";
+ }
+ 40%{
+    content: "React Developer";
+}
+60%{
+    content: "Flutter Developer";
+}
+80%{
+    content:"Angular Developer";
+}
+}
+.zero{
+    position: absolute;
+    top: 340px;
+    color: rgb(6, 138, 155);
+}
+/* ******************************* */
+.div3{
+    display: flex;
+    width: 1117px;
+    align-items: center;
+    height: 200px;
+    background-color: rgb(36,45,83 );
+    position: absolute;
+    top: 411px;
+    left: 238px;
+    border-radius: 20px;
+}
+.feb{
+    align-items: center;
+    width: 110px;
+    height: 110px;
+    background-color:white;
+    position: absolute;
+    flex-direction: column;
+    margin-left: 50px;
+    border-radius: 10px;
+    
+}
+.month{
+    background-color:rgb(246,177,74);
+    text-align: center;
+    width: 110px;
+    height: 50px;
+    padding-top: 10px;
+    border-radius: 10px 10px 0px 0px;
+    font-family: sans-serif;
+}
+.year{
+    text-align: center;
+    width: 110px;
+    height: 50px;
+    padding-top: 10px; 
+    font-family: sans-serif;
+   
+}
+.div4{
+    display: flex;
+        align-items: center;
+    flex-direction: column;
+}
+.up_com{
+    text-align: center;
+    color: white;
+    position: absolute;
+    left: 226px;
+    top: 27px;
+    font-family: sans-serif;
+
+}
+.flutter{
+    font-size: 40px;
+    align-items: center;
+    color: white;
+    position: absolute;
+    left: 224px;
+    font-family: sans-serif;
+    top: 52px;
+}
+.calnder-img{
+    background-color: rgb(255, 255, 246);
+    width: 50px;
+    position: absolute;
+    left: 223px;
+    top: 135px;
+    border-radius: 7px 7px 5px 5px ;
+    color: yellow;
+}
+.calnder-text{
+    color: white;
+    top: 157px;
+    left: 290px;
+    position: absolute;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+.graduation{
+    width: 50px;
+    background-color: white;
+    border-radius: 5px;
+    left: 513px;
+    top: 135px;
+    position: absolute;
+}
+.graduatio-text{
+    color: white;
+    position: absolute;
+    top: 158px;
+    left: 580px;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+.apply-button{
+    width: 123px;
+    height: 46px;
+    position: absolute;
+    left: 926px;
+    top: 86px;
+    border: 3px;
+    border-radius: -5px;
+    background-color: rgb(243,144,0);
+}
+/* ************************************* */
+
+.hrline{
+    position: absolute;
+    width: 1377px;
+    color: black;
+    top: 349px;
+    left: -150px;
+    background-color: black;
+}
+.revolution-text{
+    position: absolute;
+    color: rgb(36,45,83);
+    font-family: sans-serif;
+    top: 488px;
+    left: 231px;
+    font-size: 57px;
+  }
+  .to-learning{
+    position: absolute;
+    color: rgb(36,45,83);
+    font-family: sans-serif;
+    top: 560px;
+    left: 415px;
+    font-size: 57px;
+  }
+.We-are{
+    color: rgba(0, 0, 0, 0.893);
+    position: absolute;
+    top: 664px;
+    left: 202px;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 17px;
+}
+.and-get{
+    color: rgba(0, 0, 0, 0.893);
+    position: absolute;
+    top: 722px;
+    left: 331px;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 17px;
+}
+.training{
+    color: rgba(0, 0, 0, 0.893);
+    position: absolute;
+    top: 694px;
+    left: 304px;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 17px; 
+}
+/* ************************************************ */
+.box1{
+    width: 351px;
+    height: 327px;
+    position: absolute;
+    left: -225px;
+    top: 851px;
+    background-color: rgb(180,237,248);
+    border-radius: 20px;
+}
+.boxhr1{
+    position: absolute;
+    width: 307px;
+    left: 20px;
+    top: 78px;
+}
+.mony{
+    position: absolute;
+    width: 44px;
+    left: 35px;
+    top: 22px;
+    animation: monyy 1s ease-in-out infinite alternate;
+}
+@keyframes monyy{
+    0%{
+    left: 10deg;
+    }
+    25%{
+        rotate: 5deg;
+    }
+    100%{
+     rotate: 20deg;
+    }
+}
+.placment{
+    position: absolute;
+    left: 20px;
+    top: 95px;
+    font-size: 33px;
+    font-family: sans-serif;
+    color: rgb(36,45,83);
+}
+.placement_text{
+    position: absolute;
+    top: 187px;
+    left: 28px;
+    font-family: sans-serif;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.697);
+
+}
+.box2{
+    width: 351px;
+    height: 327px;
+    position: absolute;
+    left: 151px;
+    top: 851px;
+    background-color: rgb(252,221,177);
+    border-radius: 20px;
+}
+.boxhr2{
+    position: absolute;
+    width: 307px;
+    left: 20px;
+    top: 78px;
+}
+.contact{
+    position: absolute;
+    width: 41px;
+    left: 25px;
+    top: 22px;
+    animation: monyy 1s ease-in-out infinite alternate;
+
+}
+.contact-text{
+    position: absolute;
+    left: 20px;
+    top: 95px;
+    font-size: 29px;
+    font-family: sans-serif;
+    color: rgb(36,45,83);
+}
+.contact-p{
+    position: absolute;
+    top: 155px;
+    left: 17px;
+    font-family: sans-serif;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.697);
+}
+.box3{
+    width: 351px;
+    height: 327px;
+    position: absolute;
+    left: 535px;
+    top: 851px;
+    background-color: rgb(167,243,207);
+    border-radius: 20px;
+}
+.boxhr3{
+    position: absolute;
+    width: 307px;
+    left: 20px;
+    top: 78px;
+}
+.message{
+    position: absolute;
+    width: 41px;
+    left: 25px;
+    top: 22px;
+    animation: monyy 1s ease-in-out infinite alternate;
+}
+.message-text{
+    position: absolute;
+    left: 20px;
+    top: 95px;
+    font-size: 29px;
+    font-family: sans-serif;
+    color: rgb(36,45,83);
+}
+.message-p{
+    position: absolute;
+    top: 155px;
+    left: 17px;
+    font-family: sans-serif;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.697);
+}
+.box4{
+    width: 351px;
+    height: 327px;
+    position: absolute;
+    left: 922px;
+    top: 851px;
+    background-color: rgb(216,180,254);
+    border-radius: 20px;
+}
+.send{
+    position: absolute;
+    width: 41px;
+    left: 25px;
+    top: 22px;
+    animation: monyy 1s ease-in-out infinite alternate;
+}
+.boxhr4{
+    position: absolute;
+    width: 307px;
+    left: 20px;
+    top: 78px;
+}
+.send-text{
+    position: absolute;
+    left: 23px;
+    top: 93px;
+    font-size: 27px;
+    font-family: sans-serif;
+    color: rgb(36,45,83);
+}
+.send-p{
+    position: absolute;
+    top: 175px;
+    left: 20px;
+    font-family: sans-serif;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.697);
+}
+/* ***************************************** */
+.div5{
+    width: 1520px;
+    height: 410px;
+    position: absolute;
+    border-radius: 20px;
+    background-color: rgb(180,237,248);
+    left: -229px;
+    top: 1272px;
+  }
+  .redy-to-level{
+    position: absolute;
+    left: 380px;
+    top: 38px;
+    font-family: sans-serif;
+    color: rgb(36,45,83);
+    font-size: 55px
+
+}
+.career{
+    position: absolute;
+    left: 636px;
+    top: 107px;
+    font-family: sans-serif;
+    color: rgb(36,45,83);
+    font-size: 55px;
+  }
+.one-div{
+    width: 53px;
+    height: 90px;
+    left: 57px;
+    top: 230px;
+    position: absolute;
+    border-top: 2px dotted black;
+    border-left: 2px dotted black;
+  }
+.one-round{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: -24px;
+    top: -24px;
+    background-color:rgb(35,42,85);
+    border-radius: 50%;
+}
+.one-number{
+    position: absolute;
+    color: white;
+    font-size: 35px;
+    left: 13px;
+    top: 5px;
+    font-family: sans-serif;
+}
+.one-text{
+    position: absolute;
+    left: 90px;
+    top: 258px;
+    font-family: sans-serif;
+    font-size: 20px;
+    color: rgb(35,42,85);
+}
+.two-div{
+    width: 53px;
+    height: 90px;
+    left:333px;
+    top: 230px;
+    position: absolute;
+    border-top: 2px dotted black;
+    border-left: 2px dotted black;
+}
+.two-round{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: -24px;
+    top: -24px;
+    background-color:rgb(35,42,85);
+    border-radius: 50%;
+}
+.two-number{
+    position: absolute;
+    color: white;
+    font-size: 35px;
+    left: 13px;
+    top: 5px;
+    font-family: sans-serif;
+}
+.two-text{
+    position: absolute;
+    left: 367px;
+    top: 258px;
+    font-family: sans-serif;
+    font-size: 20px;
+    color: rgb(35,42,85);  
+}
+.three-div{
+    width: 53px;
+    height: 90px;
+    left: 644px;
+    top: 230px;
+    position: absolute;
+    border-top: 2px dotted black;
+    border-left: 2px dotted black;
+}
+.three-round{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: -24px;
+    top: -24px;
+    background-color:rgb(35,42,85);
+    border-radius: 50%;
+}
+.three-number{
+    position: absolute;
+    color: white;
+    font-size: 35px;
+    left: 13px;
+    top: 5px;
+    font-family: sans-serif; 
+}
+.three-text{
+    position: absolute;
+    left: 690px;
+    top: 258px;
+    font-family: sans-serif;
+    font-size: 20px;
+    color: rgb(35,42,85); 
+}
+.four-div{
+    width: 53px;
+    height: 90px;
+    left:983px;
+    top: 230px;
+    position: absolute;
+    border-top: 2px dotted black;
+    border-left: 2px dotted black; 
+}
+.four-round{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: -24px;
+    top: -24px;
+    background-color:rgb(35,42,85);
+    border-radius: 50%; 
+}
+.four-number{
+    position: absolute;
+    color: white;
+    font-size: 35px;
+    left: 13px;
+    top: 5px;
+    font-family: sans-serif;  
+}
+.four-text{
+    position: absolute;
+    left: 1025px;
+    top: 258px;
+    font-family: sans-serif;
+    font-size: 20px;
+    color: rgb(35,42,85); 
+}
+.five-div{
+    width: 53px;
+    height: 90px;
+    left:1262px;
+    top: 230px;
+    position: absolute;
+    border-top: 2px dotted black;
+    border-left: 2px dotted black; 
+}
+.five-round{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: -24px;
+    top: -24px;
+    background-color:rgb(35,42,85);
+    border-radius: 50%; 
+
+}
+.five-number{
+    position: absolute;
+    color: white;
+    font-size: 35px;
+    left: 13px;
+    top: 5px;
+    font-family: sans-serif;   
+}
+.five-text{
+    position: absolute;
+    left: 1281px;
+    top: 258px;
+    font-family: sans-serif;
+    font-size: 20px;
+    color: rgb(35,42,85); 
+}
+.div-6{
+    position: absolute;
+    width: 1477px;
+    height: 331px;
+    top: 842%;
+    left: -18%;
+    background-color: white;
+}
+.becomesoft{
+    position: absolute;
+    top: 31%;
+    left: 15%;
+    font-size: 55px;
+    font-family: sans-serif;
+    color: rgb(35,42,85);
+}
+.with-our{
+    position: absolute;
+    top: 48%;
+    left: 23%;
+    font-size: 51px;
+    font-family: sans-serif;
+    color: rgb(35,42,85);
+}
+.div-7{
+    width: 1480px;
+    height: 316px;
+    position: absolute;
+    top: 984%;
+    left: -19%;
+    /* background-color: red; */
+}
+.Personalized-div{
+    width: 350px;
+    height: 266px;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+   
+    /* background-color: white; */
+    
+}
+.Personalized-text{
+    position: absolute;
+    top: 50px;
+    left: 41px;
+    font-family: sans-serif;
+    color: rgb(35,42,85);
+    font-size: 26px;
+}
+.Personalized-para{
+    position: absolute;
+    top: 119px;
+    left: 9px;
+    font-size: 15px;
+    font-family: sans-serif;
+    color: black;
+}
+.Hands-div{
+    width: 461px;
+    height: 266px;
+    position: absolute;
+    top: 50px;
+    left: 495px;
+    border-right: 2px dotted black;
+    border-left: 2px dotted black;
+    background-color: white;
+        
+}
+.Hands-text{
+    position: absolute;
+    top: 50px;
+    left:124px;
+    font-family: sans-serif;
+    color: rgb(35,42,85);
+    font-size: 26px;
+}
+.Hands-para{
+    position: absolute;
+    top: 169px;
+    left: 571px;
+    font-size: 15px;
+    font-family: sans-serif;
+    color: black;
+    width: 349px;
+}
+.Collaborative-div{
+    width: 350px;
+    height: 266px;
+    position: absolute;
+    top: 50px;
+    left: 1054px;
+    
+    /* background-color: white;  */
+}
+.Collaborative-text{
+    position: absolute;
+    top: 50px;
+    left: 48px;
+    font-family: sans-serif;
+    color: rgb(35,42,85);
+    font-size: 26px;
+}
+.Collaborative-para{
+    position: absolute;
+    top: 119px;
+    left: 9px;
+    font-size: 15px;
+    font-family: sans-serif;
+    color: black;
+}
+/* ************************************************** */
+.div-8{
+    width: 500px;
+    width: 1532px;
+    height: 738px;
+    /* background-color: red; */
+    top: 2334px;
+    left: -237px;
+    position: absolute;
+}
+.upcoming-batch-blue{
+    position: absolute;
+    width: 652px;
+    height: 677px;
+    left: 50px;
+    top: 50px;
+    background-color: rgb(225,249,253);
+    border-radius: 10px;
+}
+.Upcoming-batch-text{
+    position: absolute;
+    font-size: 15px;
+    color: rgb(19,141,166);
+    left: 47px;
+    top: 50px;
+    font-family: sans-serif;
+}
+.feb-month{
+    width: 127px;
+    height: 55px;
+    background-color: white;
+    position: absolute;
+    flex-direction: row;
+    left: 92px;
+    top: 128px;
+    border-radius: 10px;
+}
+.feb-month-text{
+    background-color: rgb(246,177,74);
+    text-align: center;
+    width: 64px;
+    height: 38px;
+    padding-top: 17px;
+    border-radius: 10px 0px 0px 10px;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+.feb-year-text{
+    position: absolute;
+    left: 71px;
+    top: 17px;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+.become-text{
+    position: absolute;
+    color: rgb(35,42,85);
+    top: 212px;
+    left: 87px;
+    font-size: 37px;
+    font-family: sans-serif;
+}
+.upcoming-batch-blue-calander{
+    width: 41px;
+    height: 44px;
+    border-radius: 10px 10px 5px 5px;
+    left: 35px;
+    top: 328px;
+    position: absolute;
+    background-color: white;
+}
+.flutter-calnder-text{
+    position: absolute;
+    top: 389px;
+    left: 143px;
+    font-family: sans-serif;
+    font-size: 16px;
+    color: rgba(35, 42, 85, 0.742);
+}
+.upcoming-batch-blue-graduation{
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    left: 30px;
+    top: 262px;
+    position: absolute;
+    background-color: white;
+}
+.flutter-graduation-text{
+    position: absolute;
+    top: 329px;
+    left: 143px;
+    font-family: sans-serif;
+    font-size: 16px;
+    color: rgba(35, 42, 85, 0.752);  
+}
+.flutter-text-sub{
+    position: absolute;
+    top: 462px;
+    left: 85px;
+    color: rgb(19,141,166);
+    font-family: sans-serif;
+    font-size: 20px;
+}
+.flutter-text-sub-para{
+    position: absolute;
+    top: 507px;
+    left: 86px;
+    font-family: sans-serif;
+    color: rgb(35, 42, 85);
+     font-size: 18px;
+    text-align: center;
+}
+.flutter-images{
+    position: absolute;
+    left: 33px;
+    top: 517px;
+    width: 300px;
+ 
+}
+.flutter-join{
+    width: 652px;
+    height: 57px;
+    position: absolute;
+    left: 50px;
+    top: 673px;
+    background-color: aqua;
+    border-radius: 0px 0px 12px 12px;
+}
+.flutter-join-text{
+    position: absolute;
+left: 272px;
+top: 690px;
+font-size: 13px;
+font-family: sans-serif;
+color: rgb(35, 42, 85);
+}
+.arro{
+    position: absolute;
+    left: 381px;
+    top: 684px;
+    height: 30px;
+    width: 43px;
+    animation: arro 1s ease-in-out infinite alternate;
+
+}
+@keyframes arro{
+ 0%{
+    left:26%;
+ }
+}
+
+.web-dev-div{
+    position: absolute;
+    width: 652px;
+    height: 677px;
+    left: 814px;
+    top: 50px;
+    background-color:  rgb(252,221,177);;
+    border-radius: 10px;
+}
+.web-dev-text{
+    position: absolute;
+    font-size: 15px;
+    color: rgb(238, 119, 15);
+    left: 47px;
+    top: 50px;
+    font-family: sans-serif; 
+}
+.web-dev-calander{
+    width: 41px;
+    height: 44px;
+    border-radius: 10px 10px 5px 5px;
+    left: 35px;
+    top: 328px;
+    position: absolute;
+    background-color: white;
+}
+.web-dev-graduation{
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    left: 30px;
+    top: 257px;
+    position: absolute;
+    background-color: white;
+}
+.mean-images{
+    position: absolute;
+    left: 33px;
+    top: 522px;
+    width: 300px;
+}
+.web-div-month{
+    width: 127px;
+    height: 55px;
+    background-color: white;
+    position: absolute;
+    flex-direction: row;
+    left: 40px;
+    top: 77px;
+    border-radius: 10px;
+}
+.web-div-date{
+    background-color: rgb(246,177,74);
+    text-align: center;
+    width: 64px;
+    height: 38px;
+    padding-top: 17px;
+    border-radius: 10px 0px 0px 10px;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+.web-div-year{
+    position: absolute;
+    left: 71px;
+    top: 17px;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+.web-become-text{
+    position: absolute;
+    color: rgb(35,42,85);
+    top: 152px;
+    left: 42px;
+    font-size: 37px;
+    font-family: sans-serif;
+}
+.web-calnder-text{
+    position: absolute;
+    top: 338px;
+    left: 97px;
+    font-family: sans-serif;
+    font-size: 16px;
+    color: rgba(35, 42, 85, 0.742);
+}
+.web-graduation-text{
+    position: absolute;
+    top: 275px;
+    left: 96px;
+    font-family: sans-serif;
+    font-size: 16px;
+    color: rgba(35, 42, 85, 0.752);  
+}
+.web-text-sub{
+    position: absolute;
+    top: 401px;
+    left: 40px;
+    color: rgb(238, 119, 15);
+    font-family: sans-serif;
+    font-size: 20px;
+}
+.web-text-sub-para{
+    position: absolute;
+    top: 432px;
+    left: 41px;
+    font-family: sans-serif;
+    color: rgb(35, 42, 85);
+    font-size: 21px;
+}
+.web-join{
+    width: 652px;
+    height: 57px;
+    position: absolute;
+    left: 2px;
+    top: 622px;
+    background-color: rgb(238, 119, 15);
+    border-radius: 0px 0px 12px 12px; 
+}
+.web-join-text{
+    position: absolute;
+    left: 266px;
+    top: 642px;
+    font-size: 13px;
+    font-family: sans-serif;
+    color: rgb(35, 42, 85); 
+}
+.web-arro{
+    position: absolute;
+    left: 381px;
+    top: 636px;
+    height: 30px;
+    width: 43px;
+    animation: arr 1s ease-in-out infinite alternate;
+}
+
+@keyframes arr{
+    0%{
+       left:62%;
+    }
+   }
+/* ******************************************************** */
+.div-9{
+    width: 1531px;
+    height: 770px;
+    left: -237px;
+    top: 3102px;
+    position: absolute;
+    /* background-color: red; */
+}
+.Frequently-qst{
+    position: absolute;
+    top: 118px;
+    left: 355px;
+    font-size: 58px;
+    font-family: sans-serif;
+    color: rgb(36, 42, 84);
+}
+.Frequently-qst-sub{
+    position: absolute;
+    top: 199px;
+    left: 552px;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.892);
+    font-family: monospace;  
+}
+.Frequently-qst-div1{
+    width: 997px;
+    height: 75px;
+    position: absolute;
+    left: 245px;
+    top: 260px;
+    border: 1px solid rgb(121, 97, 97);
+    border-radius: 35px;
+}
+.Frequently-qst1{
+    position: absolute;
+    left: 35px;
+    top: 27px;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: rgb(36, 42, 84);
+}  
+.Frequently-arro{
+    width: 25px;
+    height: 25px;
+    left: 938px;
+    top: 28px;
+    position: absolute;
+    color: gray;
+} 
+.Frequently-qst-div2{
+    width: 997px;
+    height: 75px;
+    position: absolute;
+    left: 245px;
+    top: 360px;
+    border: 1px solid rgb(121, 97, 97);
+    border-radius: 35px;
+}
+.Frequently-qst2{
+    position: absolute;
+    left: 35px;
+    top: 27px;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: rgb(36, 42, 84);
+}
+.Frequently-qst-div3{
+    width: 997px;
+    height: 75px;
+    position: absolute;
+    left: 245px;
+    top: 460px;
+    border: 1px solid rgb(121, 97, 97);
+    border-radius: 35px;
+}
+.Frequently-qst3{
+    position: absolute;
+    left: 35px;
+    top: 27px;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: rgb(36, 42, 84);
+}
+.Frequently-qst-div4{
+    width: 997px;
+    height: 75px;
+    position: absolute;
+    left: 245px;
+    top: 560px;
+    border: 1px solid rgb(121, 97, 97);
+    border-radius: 35px;
+}
+.Frequently-qst4{
+    position: absolute;
+    left: 35px;
+    top: 27px;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: rgb(36, 42, 84);  
+}
+/* *********************************** */
+.div-10{
+    position: absolute;
+    width: 1545px;
+    height: 330px;
+    left: -241px;
+    top: 3853px;
+    background-color: rgb(23,194,226); 
+}
+.Ready-to-get{
+    position: absolute;
+    top: 50px;
+    left: 531px;
+    font-size: 50px;
+    font-family: sans-serif;
+    color: rgb(36, 42, 84); 
+    text-align: center;
+}
+.Ready-to-get-text{
+    position: absolute;
+    top: 177px;
+    left: 630px;
+    font-size: 14px;
+    text-align: center;
+    font-family: monospace;
+    color:rgba(0, 0, 0, 0.463);
+}
+.chatwhatsapp{
+    position: absolute;
+    width: 179px;
+    height: 50px;
+    left: 656px;
+    top: 233px;
+    border: 2px solid rgb(38, 38, 116);
+    background-color: rgb(23,194,226);
+    padding-left: 30px;
+    border-radius: 21px;
+
+}
+.chatwhatsapp:hover{
+    background-color: rgb(38, 38, 116);;
+}
+
+.whatsapp-img{
+    position: absolute;
+    top: 244px;
+    left: 690px;
+    width: 25px;
+    height: 25px;
+
+}
+.whatsaptext{
+    position: absolute;
+    left: 70px;
+    top: 16px;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+.whatsaptext:hover{
+    color: white;
+}
+/* ***************** */
+
+.div11{
+    position: absolute;
+    width: 1545px;
+    height: 330px;
+    left: -241px;
+    top:  4183px;
+    background-color:rgb(37,42,84); 
+}
+.levelxlastlogo{
+    left: 50px;
+    width: 106px;
+    position: absolute;
+    top: 60px;
+}
+.place-text{
+    position: absolute;
+    left: 50px;
+    top: 113px;
+    color: rgba(255, 255, 255, 0.658);
+    font-family: sans-serif;
+    font-size: 13px;
+}
+.copyright-text{
+    position: absolute;
+    left: 50px;
+    top: 250px;
+    color: rgba(255, 255, 255, 0.658);
+    font-family: sans-serif;
+    font-size: 13px;
+}
+.Get-In-Touch{
+    position: absolute;
+    left: 654px;
+    top: 72px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+.monday-to-friday{
+    position: absolute;
+    left: 654px;
+    top: 113px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 13px;
+}
+.phone-number{
+    position: absolute;
+    left: 879px;
+    top: 128px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+.phone-icon{
+    position: absolute;
+    left: 846px;
+    width: 28px;
+    height: 22px;
+    top: 122px;
+    color: white;
+}
+.mail-icon{
+    position: absolute;
+    left: 846px;
+    width: 28px;
+    height: 22px;
+    top: 157px;
+    color: white;
+}
+.Follow-us{
+    position: absolute;
+    left: 1123px;
+    top: 72px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+.linkdin{
+    width: 135px;
+    height: 41px;
+    top: 94px;
+    left: 1108px;
+    position: absolute;
+  }
